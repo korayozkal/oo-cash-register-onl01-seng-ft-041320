@@ -6,7 +6,6 @@ class CashRegister
         @items =[]
     end
 
-
     def add_item(item, price, qty = 1)
         qty.times do
             self.items << item
@@ -32,6 +31,7 @@ class CashRegister
         @total -= @last_transaction_amount
 
     end
+  end 
 
 
 
