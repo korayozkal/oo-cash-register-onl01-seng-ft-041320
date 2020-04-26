@@ -19,7 +19,7 @@ def initialize(discount=0)
     end
     self.last_transaction = amount * quantity
   end
-end
+
 
 
 
