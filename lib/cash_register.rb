@@ -1,3 +1,4 @@
 class CashRegister 
-@total = 0 
+
+def initialization(total)
 end 
